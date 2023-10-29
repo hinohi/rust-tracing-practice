@@ -1183,8 +1183,13 @@ name = "span-sqlx"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "opentelemetry",
+ "opentelemetry-stdout",
  "sqlx",
  "tokio",
+ "tracing",
+ "tracing-opentelemetry",
+ "tracing-subscriber",
 ]
 
 [[package]]
